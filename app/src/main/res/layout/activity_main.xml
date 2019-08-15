@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvBirthdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter your Birthdate"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:background="@color/bluelight"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="30sp"
+       />
+
+    <Button
+        android:layout_height="50dp"
+        android:layout_width="200dp"
+        android:id="@+id/btnShowResult"
+        android:layout_marginTop="70dp"
+        android:text="Zodiac Sign"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/tvZodiac"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your Zodiac Sign is:"
+        android:textStyle="bold"
+        android:textColor="@color/orangelight"
+        android:layout_marginTop="130dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        />
+    <ImageView
+        android:id="@+id/ImgZodiacSign"
+        android:layout_width = "wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="160dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/tvChineseZodiac"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your Chinese Animal Year is:"
+        android:textStyle="bold"
+        android:textColor="@color/greendark"
+        android:layout_marginTop="350dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        />
+
+    <ImageView
+        android:id="@+id/ImgChineseZodiac"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:layout_marginTop="380dp"
+        android:layout_centerHorizontal="true"/>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="strYearAnimal">
+        <item>RAT</item>
+        <item>OX</item>
+        <item>TIGER</item>
+        <item>RABBIT</item>
+        <item>DRAGON</item>
+        <item>SNAKE</item>
+        <item>HORSE</item>
+        <item>GOAT</item>
+        <item>MONKEY</item>
+        <item>ROOSTER</item>
+        <item>DOG</item>
+        <item>PIG</item>
+    </string-array>
+    <string-array name="strZodiacSign">
+        <item>CAPRICORN,capri.png</item>
+        <item>AQUARIUS,aqua.png </item>
+        <item>PISCES,pisces.png</item>
+        <item>ARIES,aries.png</item>
+        <item>TAURUS,taurus.png</item>
+        <item>GEMINI,gemini.png</item>
+        <item>CANCER,cancer.png</item>
+        <item>LEO,leo.png</item>
+        <item>VIRGO,virgo.png</item>
+        <item>LIBRA,libra.png</item>
+        <item>SCORPIO,scorpio.png</item>
+        <item>SAGITTARIUS,sag.png</item>
+    </string-array>
+
+</resources>
